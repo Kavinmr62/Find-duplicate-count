@@ -7,7 +7,7 @@ public class Main
 		int [] a = new int[50];
 		int[] frq = new int[a.length];
 		int i,j;
-		int c=0;
+		
 		for(i=0;i<n;i++){
 		    a[i]=sc.nextInt();
 		}
@@ -28,11 +28,10 @@ public class Main
 		int dupcount=0;
 		for(i=0;i<frq.length;i++){
 		    if(frq[i]>1){
-		        System.out.println(a[i]);
 		        dupcount++;
 		       
 		    }
 		}
-	System.out.println(dupcount);
+		System.out.println(dupcount);
 	}
 }
